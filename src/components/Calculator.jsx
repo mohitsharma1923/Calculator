@@ -20,7 +20,7 @@ const Calculator = () => {
   return (
     <>
     <section>
-        <div className='bg-gray-900 w-96 h-screen mx-auto rounded-lg overflow-hidden mt-10 '>
+        <div className='bg-gray-900 w-96 h-auto mx-auto rounded-lg overflow-hidden  '>
           <div className='text-gray-200 w-full font-bold text-3xl h-16 items-center pl-10'>
             <p>CALCULATOR APP</p>
           </div>

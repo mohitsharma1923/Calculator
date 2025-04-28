@@ -23,16 +23,14 @@ export const calculatorReducer=(state=initialState,action)=>{
                 return{
                     ...state,
                     ...payload,
-                    ans:eval(state.number).toString(),
-                   
-                    
+                    ans:eval(state.number).toString(),  
 
                 }
             } catch (error) {
                 return{
                     ...state,
                     ...payload,
-                    ans:'Error',
+                    ans:'',
                     
                 } 
             }
